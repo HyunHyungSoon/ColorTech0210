@@ -1,0 +1,252 @@
+<style>
+html{
+  margin-top: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+
+}
+
+#container2{
+background-color: white;
+overflow: hidden;
+position: fixed;
+width: 100%;
+top: 0;
+}
+
+#container{
+overflow: hidden;
+background-color: black;
+position: fixed;
+width: 100%;
+top: 0;
+
+}
+#menu{
+position:absolute;
+margin: 10px;
+margin-top: 18px;
+padding-left: 10px;
+}
+#logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+
+}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+body{
+    margin:0 auto;
+  }
+    a {
+      color: #138ef1; text-decoration:none;
+    padding-right: 10px;
+    padding-left: 10px;}
+
+  #logo{
+    border-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom :0px;
+  }
+
+  #Dent{
+    padding-top: 100px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;}
+  #Dent_1{
+    font-size: 20px;
+  }
+
+  #Dent가격 {
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+  }
+  #index_main{
+  position: relative;
+  top: 60px;
+  text-align: center;
+  border-bottom: 20px solid orange;
+  padding-bottom: 40px;
+  }
+
+
+
+  #black {
+    background-color: black;}
+
+  #NANO{
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;
+    background: black;
+    color: white;
+    text-shadow: white 0px 0px 6px;
+    font-size: 1rem;
+  }
+
+    #NANO_1{
+    font-size: 20px;
+  }
+
+    #NANO가격 {
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+    #index_main2{
+  position: static;
+  top: 40px;
+  text-align: center;
+}
+
+
+#white {
+  margin-top: none;
+  border-top: 20px solid red;
+  background-color: rgb(236 234 229)}
+
+#Painting{
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  font-family:  'Noto Sans KR', sans-serif;
+  color: brown;
+  background-color: rgb(236 234 229)}
+
+#Painting_1{
+  font-size: 20px;
+}
+
+    #index_main3{
+  position:static;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;}
+
+
+  #Carpolish{
+    border-top: 20px solid green;
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-family:  'Noto Sans KR', sans-serif;
+    background: black;
+    color: white;
+    text-shadow: white 0px 0px 6px;
+    font-size: 1rem;}
+
+
+    #Carpolish_1{
+    font-size: 20px;
+  }
+
+
+      #index_main4{
+    position:static;
+    padding-bottom: 20px;
+    text-align: center;}
+
+  #price{
+    font-size: 1rem;
+    text-decoration-style: solid;
+    text-align: center;
+    color: blue;
+    padding-bottom: 80px;
+  }
+
+  .shadow1 {
+    padding-top: 50px;
+    background: black;
+    color: orange;
+    text-shadow: white 0px 0px 6px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .shadow2 {
+    background: black;
+    color: white;
+    text-shadow: white 0px 0px 6px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #index_main1_2
+  {text-align: center;}
+
+  #견적button {
+  background-color: #03a9f4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.center  {
+text-align:center; vertical-align:middle;
+}
+
+    html {display:table; width:100%;}
+
+
+</style>
